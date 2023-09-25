@@ -1,0 +1,76 @@
+body {
+  padding: 40px;
+}
+
+.App {
+  text-align: center;
+  font-size: 22px;
+}
+
+input.inputBox {
+  font-size: 22px;
+  padding: 5px 8px 4px 8px;
+  border-radius: 3px;
+  border: 1px solid #666;
+}
+
+.calendarWrap {
+  display: inline-block;
+  position: relative;
+  color: '#666';
+}
+
+.calendarElement {
+  color: #666;
+  background-color: #666;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+  border: 1px solid #ccc;
+  z-index: 999;
+}
+
+/* custom-date-picker.css */
+
+/* Set the background color to black */
+.react-date-range {
+  background-color: grey;
+}
+
+/* Customize the appearance of the date picker */
+.react-date-range .rdrCalendarWrapper {
+  border: 1px solid grey; /* Add a border */
+}
+
+/* Customize the appearance of the date picker header */
+.react-date-range .rdrDateDisplay {
+  background-color: grey; /* Header background color */
+  color: white; /* Header text color */
+}
+
+.react-daterange-picker__inputGroup__input:focus {
+  background: red;
+}
+
+/* date-range-styles.css */
+/* Customize the background color of the calendar */
+.date-range-picker {
+  background-color: #fff;
+}
+
+/* Customize the color of the month and year text */
+.rdrMonthAndYearWrapper {
+  color: #333;
+}
+
+/* Customize the color of the day text */
+.rdrDay {
+  color: #333;
+}
+
+/* Customize the background color of the selected day */
+.rdrDaySelected {
+  background-color: #0071c5;
+  color: #fff; /* Change text color for selected day */
+}
